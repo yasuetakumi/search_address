@@ -1,0 +1,56 @@
+<html lang='ja'>
+   <head>
+       <meta charset="utf-8">
+       <link rel="stylesheet" type="text/css" href="cs/style.css" />
+       <title>JavaScript Practice</title>
+
+   </head>
+   <body>
+       <div class="inner">
+       <h2>郵便番号を検索</h2>
+<!--          <div id="test1">テスト1</div>
+         <div id="test2">テスト2</div>
+         <div id="test3">テスト3</div>
+         <button type="button" class="delete">削除</button> -->
+       <div class="form-group">
+           <div>
+             <p>郵便番号を入力してください</p>
+             <input id='zipcode' name='zip' type='text' size='20' maxlength="8" value="">
+             <button type="click" id='btn' class="searchBtn">検索</button>
+             <div id="zip_error" class="errorText"></div>
+             <div class="text">※正しい郵便番号形式で入力してください（例：1010001）</div>
+           </div>
+           <table width="50%" border="1" cellspacing="0" cellpadding="0" class="prefList">
+             <tbody>
+                 <tr>
+                   <th class="data tableTitle">
+                      <div class="tableText">都道府県</div>
+                   </th>  
+                   <th class="data tableTitle">
+                      <div class="tableText">市区町村</div>
+                   </th>  
+                   <th class="data tableTitle">
+                      <div class="tableText">町域</div>
+                   </th> 
+                 </tr>
+                 <tr>
+                   <td class="data">
+                      <div id="address1" class="tableText" type='text' size="10" value=""></div>
+                   </td>  
+                   <td class="data">
+                      <div id="address2" class="tableText" type='text' size="10" value=""></div>
+                   </td>  
+                   <td class="data">
+                      <div id="address3" class="tableText" type='text' size="10" value=""></div>
+                   </td> 
+                 </tr>
+               </tbody>
+              </table>
+       </div>
+       </div>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+       <script 
+src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+       <script src="js/app.js"></script>
+   </body>
+</html>
