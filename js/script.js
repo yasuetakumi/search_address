@@ -42,7 +42,7 @@ $(function () {
       toEmpty(toEmptyArray);
       
       let zipcode = $('#zipcode').val();
-      // validation(バリデーションしたい要素の値, 必須かどうか(true or false))
+      // validation(バリデーションしたい要素の値, 必須可否(true or false))
       let error = validateZipcode(zipcode, true);
       if (error) {
         $('#zip_error').html(error);
