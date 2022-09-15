@@ -1,0 +1,37 @@
+.inner {
+  background: #eee;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.tableTitle {
+  text-align: left;
+  font-size: 14px;
+  background-color: #F3F0E4;
+}
+
+.tableText {
+  text-align: left;
+  font-size: 14px;
+}
+
+.prefList {
+  border-collapse: collapse;
+  word-break: break-all;
+  border: 1px solid #ccc;
+  margin: 20px auto;  
+  text
+}
+
+.data {
+  padding: 10px 5px;
+}
+
+.text {
+  font-size: 11px;
+}
+
+.errorText {
+  color: #ff0000;
+}
